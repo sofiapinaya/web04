@@ -260,7 +260,7 @@ nav ul li a:hover {
     width: 45%; /* Aumenta el ancho de la imagen */
     display: flex;
     justify-content: flex-end; /* Mueve la imagen hacia la derecha */
-    padding-right: 100px; /* Espacio adicional opcional */
+    padding-left: 100px; /* Espacio adicional opcional */
 }
 
   
