@@ -740,6 +740,37 @@ margin-bottom: 2rem;
     .social-icons {
         margin: 10px 0;
     }
+
+
+     .hero-section {
+        height: 400px; /* Ajusta la altura de la sección para pantallas más pequeñas */
+    }
+
+    .hero-image {
+        object-position: center; /* Centra la imagen en pantallas pequeñas */
+        height: 100%;
+        width: 100%;
+    }
+
+    .hero-text {
+        left: 50%;
+        transform: translate(-50%, -50%); /* Centra el texto en pantallas pequeñas */
+        padding: 0 20px; /* Añade un poco de padding para evitar que el texto se corte */
+    }
+
+    .hero-text h1 {
+        font-size: 2.5em; /* Reduce el tamaño del título en pantallas pequeñas */
+    }
+
+    .hero-text p {
+        font-size: 1.1em; /* Reduce el tamaño del texto en pantallas pequeñas */
+    }
+
+    .hero-text a {
+        font-size: 1em; /* Ajusta el tamaño de los botones */
+        padding: 10px 20px; /* Añade padding para que los botones no sean demasiado pequeños */
+    }
+}
 }
 
 
