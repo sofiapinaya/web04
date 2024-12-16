@@ -482,6 +482,11 @@ iframe {
         font-size: 2rem; /* Reduce el tamaño del título */
     }
 
+    .presentation-container, .doc-container {
+        width: 100%; /* Ocupa todo el ancho del contenedor en móviles */
+        height: 300px; /* Ajusta la altura automáticamente */
+        margin-bottom: 20px; /* Espacio entre los contenedores */
+    }
 
     
 }
