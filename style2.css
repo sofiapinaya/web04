@@ -234,7 +234,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column; /* Hace que los cuadros estén uno debajo del otro */
     width: 35%; /* Reduce el ancho de la sección de texto */
-    margin-left: 40px; /* Espaciado en blanco a la izquierda */
+    margin-right: 40px; /* Espaciado en blanco a la izquierda */
   }
   
   .mission, .vision {
