@@ -460,6 +460,25 @@ nav ul li a:hover {
         font-size: 2rem; /* Reduce el tamaño del título */
     }
 
+    .mission, .vision {
+        display: flex;
+        flex-direction: column; /* Apila los elementos verticalmente */
+        align-items: center; /* Centra los elementos horizontalmente */
+        padding: 1rem;
+    }
+
+    .img-section {
+        width: 80%; /* Ajusta el tamaño de la imagen para que se vea bien en móviles */
+        justify-content: center; /* Centra la imagen */
+        padding-right: 0; /* Elimina el espacio extra */
+        margin-bottom: 1rem; /* Añade espacio entre la imagen y el texto */
+    }
+
+    .mission p, .vision p {
+        font-size: 1.1rem; /* Ajusta el tamaño del texto */
+        text-align: center; /* Centra el texto */
+    }
+
 
     
 }
