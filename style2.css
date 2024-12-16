@@ -460,16 +460,19 @@ nav ul li a:hover {
         font-size: 2rem; /* Reduce el tamaño del título */
     }
 
-    .mission, .vision {
-        padding: 1rem;
-        text-align: center; /* Centra el texto */
+      .container {
+        display: block; /* Hace que el contenedor se acomode en columna */
+    }
+
+    .text-section {
+        width: 100%; /* El texto ocupa todo el ancho */
+        margin-left: 0; /* Sin margen a la izquierda */
     }
 
     .img-section {
-        width: 100%; /* La imagen ocupa todo el ancho */
-        justify-content: center; /* Centra la imagen */
-        padding-right: 0; /* Elimina el espacio extra */
-        margin-top: 1rem; /* Espacio entre el texto y la imagen */
+        width: 100%; /* Imagen ocupa todo el ancho */
+        padding-right: 0; /* Elimina el padding a la derecha */
+        margin-top: 20px; /* Añade espacio entre el texto y la imagen */
     }
 
 
