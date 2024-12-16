@@ -770,6 +770,24 @@ margin-bottom: 2rem;
         font-size: 1em; /* Ajusta el tamaño de los botones */
         padding: 10px 20px; /* Añade padding para que los botones no sean demasiado pequeños */
     }
+
+    .content-wrapper {
+        flex-direction: column; /* Cambia la disposición a columna en pantallas pequeñas */
+        padding: 1rem;
+    }
+
+    .text-content {
+        padding: 1rem;
+        background-color: #0071c1;
+        color: white;
+    }
+
+    .main-question {
+        font-size: 2rem; /* Reduce el tamaño del título */
+    }
+
+
+    
 }
 }
 
