@@ -466,7 +466,7 @@ nav ul li a:hover {
 
     .text-section {
         width: 100%; /* El texto ocupa todo el ancho */
-        margin-left: 0; /* Sin margen a la izquierda */
+        margin-right: 0; /* Sin margen a la izquierda */
     }
 
     .img-section {
