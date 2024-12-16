@@ -471,7 +471,7 @@ nav ul li a:hover {
 
     .img-section {
         width: 100%; /* Imagen ocupa todo el ancho */
-        padding-right: 10; /* Elimina el padding a la derecha */
+        padding-left: 0; /* Elimina el padding a la derecha */
         margin-top: 20px; /* Añade espacio entre el texto y la imagen */
     }
 
