@@ -604,195 +604,124 @@ margin-bottom: 2rem;
 }
 
 
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-    .stats-section {
+/* Media query for tablets (768px to 1024px) */
+@media (max-width: 1024px) {
+    nav ul {
         flex-direction: column;
         align-items: center;
-    }
-  
-    .stat {
-        width: 80%;
-        margin-bottom: 20px;
-    }
-  }
-
-  
-  @media (max-width: 768px) {
-    .content-wrapper {
-      flex-direction: column;
-    }
-  
-    .text-content, .image-content {
-      width: 100%;
-    }
-  
-    .image-content {
-      height: 300px;
-    }
-  }
-  
- 
-  
-  @keyframes fadeInUp {
-    to {
-        opacity: 1; /* Termina visible */
-        transform: translateY(0); /* Se queda en su posición original */
-    }
-  }
-
-  
-  @keyframes slideDown {
-    to {
-        opacity: 1; /* Termina visible */
-        transform: translateY(0); /* Se queda en su posición original */
-    }
-  }
-  
-  
-  @keyframes fadeIn {
-    from {
-        opacity: 0; /* Comienza completamente transparente */
-    }
-    to {
-        opacity: 1; /* Termina completamente visible */
-    }
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* Tablet Styles */
-  @media screen and (max-width: 1024px) {
-      .header-container {
-          flex-direction: column;
-          align-items: center;
-      }
-  
-      .header-container .contact-info {
-          text-align: center;
-          margin-top: 10px;
-      }
-  
-     
-      nav ul {
-        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+        padding-right: 0;
     }
 
     nav ul li {
-        margin: 10px 0; /* Ajustar los márgenes para la vista móvil */
+        margin-bottom: 10px;
     }
 
-      
-  
-      .quienes-somos {
-          height: auto;
-          min-height: 400px;
-      }
-  
-      .content h2 {
-          font-size: 36px;
-      }
-  
-      .content p {
-          font-size: 16px;
-      }
-  
-      table {
-          width: 95%;
-      }
-  
-      th, td {
-          padding: 12px;
-          font-size: 14px;
-      }
-  
-      .footer-container {
-          grid-template-columns: repeat(3, 1fr);
-      }
-  }
-  
-  /* Mobile Styles */
-  @media screen and (max-width: 768px) {
-      .header-container .logo img {
-          max-width: 100px;
-      }
-  
-      .header-container .contact-info {
-          font-size: 12px;
-      }
-  
-      nav ul {
-          flex-direction: column;
-          align-items: center;
-      }
-  
-      nav ul li {
-          margin: 5px 0;
-      }
-  
-      .quienes-somos {
-          min-height: 60vh;
-      }
-  
-      .content h2 {
-          font-size: 28px;
-      }
-  
-      .content p {
-          font-size: 14px;
-      }
-  
-      table {
-          width: 100%;
-      }
-  
-      th, td {
-          padding: 10px;
-          font-size: 12px;
-      }
-  
-      td:nth-child(2), td:nth-child(3) {
-          width: auto;
-      }
-  
-      .header-peru {
-          font-size: 20px;
-          padding: 15px;
-      }
-  
-      .footer-container {
-          grid-template-columns: 1fr;
-      }
-  
-      .footer-section {
-          padding: 15px;
-      }
-  
-      .hero-text {
-      left: 30px; /* Adjust left positioning for mobile */
-      transform: translate(0, -50%); /* Center vertically */
-      max-width: 90%; /* Limit width to prevent overflow */
+    .logo {
+        width: 80px;
     }
-  
-    .hero-text h1 {
-      font-size: 1.9em; /* Reduce font size for mobile */
+
+    .hero {
+        height: 70vh;
+        padding: 0 10px;
     }
-  
-    .hero-text p {
-      font-size: 1em; /* Reduce font size for mobile */
+
+    .hero h1 {
+        font-size: 2.5em;
     }
-  }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+
+    .servicios-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .quienes-somos {
+        flex-direction: column;
+    }
+
+    .quienes-somos-image {
+        max-width: 100%;
+    }
+
+    .footer-content {
+        padding: 0 20px;
+    }
+}
+
+/* Media query for mobile devices (up to 768px) */
+@media (max-width: 768px) {
+    /* Top-bar adjustments */
+    .top-bar {
+        text-align: center;
+    }
+
+    .top-bar select, .top-bar a {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+
+    /* Navigation adjustments */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    /* Hero section */
+    .hero {
+        height: 60vh;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    /* Section spacing and text alignment */
+    .quienes-somos, .nuestros-servicios {
+        padding: 0 15px;
+    }
+
+    /* Grid layout changes */
+    .servicios-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .servicio-card img {
+        height: auto;
+    }
+
+    /* Footer adjustments */
+    .footer-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-column {
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
+
