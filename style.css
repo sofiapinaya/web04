@@ -687,13 +687,16 @@ margin-bottom: 2rem;
           margin-top: 10px;
       }
   
+     
       nav ul {
-          flex-wrap: wrap;
-      }
-  
-      nav ul li {
-          margin: 5px 10px;
-      }
+        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Ajustar los márgenes para la vista móvil */
+    }
+
+      
   
       .quienes-somos {
           height: auto;
