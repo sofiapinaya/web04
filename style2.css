@@ -460,19 +460,18 @@ nav ul li a:hover {
         font-size: 2rem; /* Reduce el tamaño del título */
     }
 
-      .container {
+    .container {
         display: block; /* Hace que el contenedor se acomode en columna */
     }
 
+    /* Cambia el orden de los elementos: imagen arriba y texto abajo */
     .text-section {
-        width: 100%; /* El texto ocupa todo el ancho */
-        margin-left: 0; /* Sin margen a la izquierda */
+        order: 2; /* Pone el texto después de la imagen */
     }
 
     .img-section {
-        width: 100%; /* Imagen ocupa todo el ancho */
-        padding-right: 0; /* Elimina el padding a la derecha */
-        margin-top: 20px; /* Añade espacio entre el texto y la imagen */
+        order: 1; /* Pone la imagen arriba del texto */
+        margin-top: 0; /* Elimina el margen superior de la imagen */
     }
 
 
