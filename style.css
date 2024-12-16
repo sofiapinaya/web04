@@ -686,10 +686,9 @@ margin-bottom: 2rem;
         width: 60px;
     }
 
-    /* Hero section adjustments */
+    /* Hero section */
     .hero {
-        min-height: 60vh; /* Asegura que el Hero sea visible */
-        padding: 0 15px;
+        height: 60vh;
     }
 
     .hero h1 {
