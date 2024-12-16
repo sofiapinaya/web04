@@ -621,8 +621,12 @@ margin-bottom: 2rem;
     }
 
     .hero {
-        height: 70vh;
+        min-height: 70vh; /* Cambiado de height a min-height */
         padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .hero h1 {
@@ -638,11 +642,15 @@ margin-bottom: 2rem;
     }
 
     .quienes-somos {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .quienes-somos-image {
         max-width: 100%;
+        margin-bottom: 15px; /* Separar la imagen del texto */
     }
 
     .footer-content {
@@ -678,9 +686,10 @@ margin-bottom: 2rem;
         width: 60px;
     }
 
-    /* Hero section */
+    /* Hero section adjustments */
     .hero {
-        height: 60vh;
+        min-height: 60vh; /* Asegura que el Hero sea visible */
+        padding: 0 15px;
     }
 
     .hero h1 {
@@ -691,9 +700,23 @@ margin-bottom: 2rem;
         font-size: 1em;
     }
 
-    /* Section spacing and text alignment */
-    .quienes-somos, .nuestros-servicios {
+    /* Quiénes Somos adjustments */
+    .quienes-somos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         padding: 0 15px;
+    }
+
+    .quienes-somos-image {
+        max-width: 100%;
+        margin-bottom: 15px; /* Separar la imagen del texto */
+    }
+
+    .quienes-somos-text {
+        font-size: 1.1em;
+        margin-top: 10px;
     }
 
     /* Grid layout changes */
@@ -719,7 +742,6 @@ margin-bottom: 2rem;
         margin: 10px 0;
     }
 }
-
 
 
 
