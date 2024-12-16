@@ -488,6 +488,13 @@ iframe {
         margin-bottom: 20px; /* Espacio entre los contenedores */
     }
 
+     .container {
+        flex-direction: column; /* Cambia la dirección del flex a columna */
+        width: 80%; /* Asegúrate de que el contenedor ocupe todo el ancho */
+         margin-left: 20px; /* Mantiene el margen izquierdo en auto */
+    margin-right: 20px; /* Ajusta este valor para mover el contenedor a la derecha */
+    }
+
     
 }
 }
